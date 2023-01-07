@@ -43,11 +43,7 @@ const HAndT = () => {
       <h1 className="display-2">Head and Tail</h1>
       <div>
         {error && (
-          <label
-            className="text-danger"
-            style={{ fontSize: ".9em" }}
-            for="error"
-          >
+          <label className="text-danger" style={{ fontSize: ".9em" }}>
             Please select value from dropdown
           </label>
         )}
