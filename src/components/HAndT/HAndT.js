@@ -37,7 +37,6 @@ const HAndT = () => {
     setLastSetect(select);
     setSelect("select value");
   };
-  console.log("render", result);
   return (
     <div className="col">
       <h1 className="display-2">Head and Tail</h1>
@@ -46,7 +45,6 @@ const HAndT = () => {
           <label
             className="text-danger"
             style={{ fontSize: ".9em" }}
-            for="error"
           >
             Please select value from dropdown
           </label>
